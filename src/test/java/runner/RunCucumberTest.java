@@ -14,8 +14,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
         plugin = {"json:target/reports/cucumberReport.json", "html:target/reports/"},
         features = "src/test/resources/features",
         glue = {"steps"},
-        //tags = {"~@ignore"},
-        tags = {"@cadastro-sucesso, @cadastro-sucesso2"},
+        tags = {"~@ignore"},
+        //tags = {"@cadastro-sucesso, @cadastro-sucesso2"},
         strict = true
 )
 
